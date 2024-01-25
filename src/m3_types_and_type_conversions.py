@@ -1,7 +1,7 @@
 import math
 
 ###############################################################################
-# TODO: 1. (3 pts)
+# DONE: 1. (3 pts)
 #   Every object has a TYPE and a VALUE.  For example,
 #   for the object that is computed by  math.sqrt(2):
 #      Its TYPE is float  (which is shorthand for "floating point number")
@@ -18,6 +18,7 @@ import math
 #   will print     <class 'float'>
 #   Try it now!
 #   (Just write   print(type(3.14))   below this _TODO_ and run the program.)
+print(type(3.14))
 #
 #   Now go through the BLAH objects listed below.  For each:
 #      -- Try to GUESS its TYPE.
@@ -36,13 +37,25 @@ import math
 #       print
 #       math
 #       'math'
+print(type("hello"))
+print(type('hello'))
+print(type("a b c"))
+print(type(3 + 3))
+print(type("3" + "3"))
+print(type(2 ** 100))
+print(type(2.0 ** 100))
+print(type(math.sin(8)))
+print(type(math.sin))
+print(type(print))
+print(type(math))
+print(type('math'))
 #
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
 
 ###############################################################################
-# TODO: 2. (1 pt)
+# DONE: 2. (1 pt)
 #   As you can see from the first _TODO_, there is an important difference
 #   between a  float  type and an  integer  type. Floats can have decimals 
 #   while integer are just that, integers.
@@ -52,6 +65,8 @@ import math
 #       round(2.75)
 #
 #   Try it below this _TODO_.
+print(round(2.75))
+print(type(round(2.75)))
 #
 #   Now, just as you did above, get the type of the result of the round
 #   function. Notice how the result is an integer instead of a float like the
@@ -61,7 +76,7 @@ import math
 ###############################################################################
 
 ###############################################################################
-# TODO: 3. (1 pt)
+# DONE: 3. (1 pt)
 #   We can also manually convert an object from one type to another. This is 
 #   also called casting.
 #
@@ -75,6 +90,10 @@ import math
 #     - The type of that value
 #     - The result of casting that float into an int
 #     - The type of the result
+a = 26.78
+print(type(a))
+b = int(26.78)
+print(type(b))
 #
 #   Notice how this also rounds the number.
 #   

@@ -1,8 +1,8 @@
-answer = 2 + 5
-print(answer * 1000)
+#answer = 2 + 5
+#print(answer * 1000)
 
 ###############################################################################
-# TODO: 1. (1 pt)
+# DONE: 1. (1 pt)
 #   Read the 2 lines of code ABOVE this _TODO_.  That code:
 #     1. Computes 2 plus 5, yielding the object that is
 #          the integer 7.
@@ -26,7 +26,7 @@ print(answer * 1000)
 ###############################################################################
 
 ###############################################################################
-# TODO: 2. (1 pt)
+# DONE: 2. (1 pt)
 #   Immediately below this _TODO_, write code that:
 #     - Computes 77 minus the division between 13 and 2.
 #         - Do this in three ways:
@@ -36,6 +36,11 @@ print(answer * 1000)
 #     - Store those computed values using different names of your own choosing
 #       to help you know which is which.
 #     - Prints each of the computed values.
+a = 77 - 13
+b = 13 / 2
+print(77 - 13 / 2)  #1
+print(77 - b)       #2
+print(a / 2)        #3
 #
 #   Run your code (fix errors as needed) and make sure you understand why it
 #   is getting each value (you may want to open a calculater on your computer
@@ -45,16 +50,18 @@ print(answer * 1000)
 ###############################################################################
 
 ###############################################################################
-# TODO: 3. (1 pt)
+# DONE: 3. (1 pt)
 #   Immediately below this _TODO_, write code that:
 #     - Computes 5 to the 2nd power (HINT: use  **  as the operator)
 #     - Stores the result to a name of your choosing
 #     - Prints the result
+fivesquared = 5 ** 2
+print(fivesquared)
 #
 ###############################################################################
 
 ###############################################################################
-# TODO: 4. (1 pt)
+# DONE: 4. (1 pt)
 #   Immediately below this _TODO_, write code that:
 #     - Computes 7 divided by 2 and stores the result to the name  result  .
 #     - Computes just the quotient of 7 divided by 2 (HINT: use  //  as the 
@@ -62,6 +69,12 @@ print(answer * 1000)
 #     - Computes the remainder of 7 divided by 2 (HINT: use  %  as the 
 #       operator) and stores the result to the name  remainder  .
 #     - Prints each of the computed values
+result = 7 / 2
+quotient = 7 // 2
+remainder = 7 % 2
+print(result)
+print(quotient)
+print(remainder)
 #
 #   Once you have done this, then change the above _TODO to DONE.
 ###############################################################################
